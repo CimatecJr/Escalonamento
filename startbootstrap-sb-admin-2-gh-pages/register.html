@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="pt-br">
 
@@ -38,9 +39,20 @@
     .card {
       border-radius: 70px;
     }
-
     .bg-light {
       background-color: white !important;
+    }
+     .navbar-nav{
+      margin-right: auto;
+    }
+    .mb-4{
+      margin-bottom: 0.5rem!important;
+    }
+    .form-last{
+      margin-bottom: 0.5rem!important;
+    }
+    .col-last{
+      margin-bottom: 0rem!important;
     }
   </style>
 
@@ -112,12 +124,15 @@
                       placeholder="Confirmar senha">
                   </div>
                 </div>
-                <div class="form-group row">
+                <div class="form-last form-group row">
                   <div class="col-sm-6 mb-3 mb-sm-0">
                     <input type="text" class="form-control form-control-user" id="exampleFirstName" placeholder="PIN">
                   </div>
+                  <div class="col-last col-sm-6 mb-3 mb-sm-0">
+                    <input type="date" class="form-control form-control-user" placeholder="Data de Nascimento">
+                  </div>
+                </div>
                   <nav class="navbar navbar-expand navbar-light bg-light mb-4">
-
                     <ul class="navbar-nav ml-auto">
                       <li class="nav-item dropdown show">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
@@ -133,7 +148,6 @@
                       </li>
                     </ul>
                   </nav>
-                </div>
                 <a href="login.html" class="btn btn-primary btn-user btn-block">
                   Cadastrar-se
                 </a>
